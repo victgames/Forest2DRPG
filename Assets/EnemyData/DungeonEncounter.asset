@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6b0cd0454b2a84881fa94446a677b6, type: 3}
+  m_Name: DungeonEncounter
+  m_EditorClassIdentifier: 
+  EncountRate: 0.2
+  List:
+  - EncountRate: 0.3
+    EncounterEnemies: {fileID: 11400000, guid: 1239b5f667c8985489004b186baef73c, type: 2}
+  - EncountRate: 0.2
+    EncounterEnemies: {fileID: 11400000, guid: 609b578e7a43bd34d9133a25d813e331, type: 2}
